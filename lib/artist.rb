@@ -1,4 +1,5 @@
 require 'pry'
+  include Paramable
 
 class Artist
   attr_accessor :name

@@ -1,6 +1,6 @@
 require 'pry'
 
-include Paramable 
+include Paramable
 
 class Song
   attr_accessor :name
