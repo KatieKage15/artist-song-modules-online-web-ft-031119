@@ -1,6 +1,8 @@
 require 'pry'
 
 include Paramable
+extend Memorable::ClassMethods
+include Memorable::InstanceMethods
 
 class Song
   attr_accessor :name
